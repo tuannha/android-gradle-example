@@ -4,6 +4,7 @@
 .settings
 *.iml
 .idea
+.gradle
 /lib
 /jetty9-plugin.zip
 /pkg
