@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/bubbu/CloudBees/github/android-gradle-example/src/main/res" >
+            <file
+                path="/home/bubbu/CloudBees/github/android-gradle-example/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >Android Gradle
+                </string>
+            </file>
+            <file
+                name="hello_layout"
+                path="/home/bubbu/CloudBees/github/android-gradle-example/src/main/res/layout/hello_layout.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/bubbu/CloudBees/github/android-gradle-example/build/res/rs/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/bubbu/CloudBees/github/android-gradle-example/src/release/res" />
+    </dataSet>
+
+</merger>

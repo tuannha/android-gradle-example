@@ -1,0 +1,5 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1387282849000 377 a53bf7ce4389e99b64b73eed293c875809f5a4e3 /home/bubbu/CloudBees/github/android-gradle-example/src/main/res/layout/hello_layout.xml
+1387282695000 116 e165236f9cbca0fa95f8cec1f9f79e4df7456fb8 /home/bubbu/CloudBees/github/android-gradle-example/src/main/res/values/strings.xml
