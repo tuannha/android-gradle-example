@@ -1,22 +1,21 @@
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
-
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.6.1+'
+        classpath 'com.android.tools.build:gradle:2.2.0+'
     }
 }
 
 apply plugin: 'android'
 
 android {
-    buildToolsVersion "18.0.1"
-    compileSdkVersion 18
+    buildToolsVersion "24.0.2"
+    compileSdkVersion 24
 }
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -24,5 +23,5 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.8'
+    gradleVersion = '3.1'
 }
